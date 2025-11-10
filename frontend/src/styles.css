@@ -1,0 +1,7 @@
+/* You can add global styles to this file, and also import other style files */
+body{margin:0;background:#f4f4f4;color:#222;font-family:Arial,Helvetica,sans-serif}
+a{text-decoration:none;color:#0a58ca}
+button{cursor:pointer}
+.card{background:#fff;padding:12px;margin:12px 0;border-radius:6px}
+input,textarea{width:100%;padding:.5rem;border:1px solid #ddd;border-radius:4px}
+.error{color:#c00}
