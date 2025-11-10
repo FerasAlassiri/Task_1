@@ -6,10 +6,9 @@ It supports user registration, login, article creation, likes/dislikes, and comm
 ---
 
 ## Project Structure
-Task_1
-/
-├── backend/ # Spring Boot backend API
-└── frontend/ # Angular frontend app
+Task_1/
+├── backend/
+└── frontend/ 
 
 ## How to Run
 
