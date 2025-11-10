@@ -6,7 +6,8 @@ It supports user registration, login, article creation, likes/dislikes, and comm
 ---
 
 ## Project Structure
-Task_1/
+Task_1
+/
 ├── backend/ # Spring Boot backend API
 └── frontend/ # Angular frontend app
 
@@ -22,7 +23,7 @@ The backend will start at:
 http://localhost:8080
 ```
 
-### 1- Frontend (Angular)
+### 2- Frontend (Angular)
 **Requirements:**  Node.js and npm installed.
 
 ```bash
@@ -38,21 +39,4 @@ Default Admin User
 Username	Password
 admin	admin12345
 Created automatically when the backend first runs.
-
-
-API Overview
-
-| Method   | Endpoint                | Description                   |
-| -------- | ----------------------- | ----------------------------- |
-| `POST`   | `/user`                 | Register a new user           |
-| `GET`    | `/login`                | Login (Basic Auth)            |
-| `GET`    | `/article`              | List all articles             |
-| `GET`    | `/article/{id}`         | Get article by ID             |
-| `POST`   | `/article`              | Create a new article *(USER)* |
-| `DELETE` | `/article/{id}`         | Delete own article *(USER)*   |
-| `PUT`    | `/article/{id}/like`    | Like article *(USER)*         |
-| `PUT`    | `/article/{id}/dislike` | Dislike article *(USER)*      |
-| `PUT`    | `/article/{id}/disable` | Disable article *(ADMIN)*     |
-| `PUT`    | `/article/{id}/enable`  | Enable article *(ADMIN)*      |
-
 
