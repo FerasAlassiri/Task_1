@@ -28,7 +28,7 @@ http://localhost:8080
 ```bash
 cd frontend
 npm install
-npm start
+ng serve
 The frontend will start at:
 http://localhost:5173
 ```
